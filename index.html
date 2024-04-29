@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+  <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+  <!-- content start -->
+  <section class="msger">
+
+    <header class="msger-header">
+      <div class="msger-header-title">
+        Chat APP NodeJS and SocketIO
+      </div>
+
+    </header>
+
+    <main class="msger-chat">
+      <div class="msg-bubble left">
+        <div class="msg-info">
+          <div class="msg-info-name">BOT</div>
+          <div class="msg-info-time">12:45</div>
+        </div>
+
+        <div class="msg-text">
+          Hi, welcome to SimpleChat! Go ahead and send me a message. 😄
+        </div>
+      </div>
+
+      <div class="msg-bubble right ">
+        <div class="msg-info">
+          <div class="msg-info-name">Sajad</div>
+          <div class="msg-info-time">12:46</div>
+        </div>
+
+        <div class="msg-text">
+          You can change your name in JS section!
+        </div>
+      </div>
+
+    </main>
+
+    <form class="msger-inputarea" id="send-data">
+      <input type="text" class="msger-input" id="input-data" placeholder="Enter your message...">
+      <button type="submit" class="msger-send-btn">Send</button>
+    </form>
+  </section>
+  <!-- content end -->
+
+</body>
+
+</html>
